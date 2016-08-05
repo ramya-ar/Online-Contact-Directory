@@ -1,0 +1,91 @@
+body{
+	background-color: Dimgrey;
+	font-family: 'Droid Serif', serif;
+}
+
+.row{
+	margin-top: 50px;
+	background: NavajoWhite;
+	border:10px solid white;
+}
+
+.photo {
+    text-align: center; 
+}
+.photo img {
+    width: 300px important!; 
+    height: auto important!; 
+}
+
+.input_label {
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    background: #EEE;
+    border: 1px solid #CCC;
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid #FFF;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 0;
+    width: 50px !important;
+}
+
+#cont input[type=text] {
+    -moz-border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 0 5px 5px 0;
+    color: #333;
+    line-height: 36px;
+    margin: 0 8px 0 -5px;
+    outline: none;
+    width: 70%;
+    height: 36px;
+}
+
+.in1 label {
+    background: url('../img/name.png') no-repeat 8px center;
+}
+.in2 label {
+    background: url('../img/phone.png') no-repeat 8px center;
+}
+.in3 label {
+    background: url('../img/email.png') no-repeat 8px center;
+}
+.in4 label {
+    background: url('../img/photo.png') no-repeat 8px center;
+}
+
+label {
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 10px;
+}
+
+.form-control ,.thumbnail{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thumbnail{
+	background-color: Linen;
+	border-radius: 5px;
+	margin-top:10px;
+	border:10px solid white;
+}
+
+@media only screen and (min-width:960px) {
+    .thumbnail {
+        width: 350px;
+        height: 400px;
+    }
+}
+
+.breadcrumb{
+	background-color: Linen;
+}
+
+nav a{
+	text-decoration: none;
+}
